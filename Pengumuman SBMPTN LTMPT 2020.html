@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://sbmptn.unhas.ac.id/ -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Pengumuman SBMPTN LTMPT 2020</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="http://sbmptn.unhas.ac.id/images/icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://sbmptn.unhas.ac.id/images/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://sbmptn.unhas.ac.id/images/icon/favicon-16x16.png">
+	<link rel="manifest" href="http://sbmptn.unhas.ac.id/images/icon/site.webmanifest">
+	<link rel="mask-icon" href="http://sbmptn.unhas.ac.id/images/icon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="http://sbmptn.unhas.ac.id/images/icon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="images/icon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<style type="text/css">
+		.input-edit {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin: 50px 10%;
+		}
+	</style>
+
+	<link rel="stylesheet" href="./Pengumuman SBMPTN LTMPT 2020_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./Pengumuman SBMPTN LTMPT 2020_files/sbmptn.css">
+<script type="text/javascript" async="" src="./Pengumuman SBMPTN LTMPT 2020_files/request"></script></head>
+<body cz-shortcut-listen="true">
+	<div class="container-fluid">
+		<div class="p-3 d-none d-sm-block">
+			<div class="row">
+				<div class="col-12 col-sm-5 d-none d-sm-block">
+					<div class="text-center">
+						<img src="./Pengumuman SBMPTN LTMPT 2020_files/logo-home.png" class="img-fluid" alt="Logo LTMPT">
+					</div>
+				</div>
+				<div class="col-10 col-sm-5 d-none d-sm-block">
+					<div class="text-center">
+						<img src="./Pengumuman SBMPTN LTMPT 2020_files/sponsor.png" class="img-fluid" alt="Logo Sponsor">
+					</div>
+				</div>
+				<div class="col-2 col-sm-2 d-none d-sm-block">
+					<div class="text-center">
+						<img src="./Pengumuman SBMPTN LTMPT 2020_files/indonesia-75.png" class="img-fluid" width="62" height="100" alt="Logo HUT Indonesia ke-75">
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="p-1 d-block d-sm-none">
+			<div class="row">
+				<div class="col-9 d-block d-sm-none">
+					<div class="row ml-1 mt-2">
+						<div class="col-12">
+							<div class="text-center">
+								<img src="./Pengumuman SBMPTN LTMPT 2020_files/logo-home.png" class="img-fluid" alt="Logo LTMPT">
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="text-center">
+								<img src="./Pengumuman SBMPTN LTMPT 2020_files/sponsor.png" class="img-fluid" alt="Logo Sponsor">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 d-block d-sm-none mt-2">
+					<div class="text-center">
+						<img src="./Pengumuman SBMPTN LTMPT 2020_files/indonesia-75.png" class="img-fluid" width="62" height="100" alt="Logo HUT Indonesia ke-75">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm">
+				<div class="header-bottom-line"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<div class="marquee"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container" id="main" style="display: none;">
+		<div class="void"></div>
+		<div class="row m-1">
+			<div class="col-12 text-center">
+				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN LTMPT 2020</span>
+			</div>
+		</div>
+		<div class="void"></div>
+
+		<div class="row mx-auto box-width m-1" id="error" style="display: none;">
+			<div class="col-12 text-center">
+				<div class="alert alert-danger" id="error-msg">Nomor peserta UTBK-SBMPTN dan/atau tanggal lahir tidak ditemukan. Pastikan nomor peserta UTBK-SBMPTN dan tanggal lahir yang Anda masukkan sudah benar.</div>
+			</div>
+			<div class="void"></div>
+		</div>
+
+		<div class="card card-block bg-faded mx-auto box-width">
+			<div class="card-header">
+				<strong>Masukkan nomor peserta UTBK-SBMPTN dan tanggal lahir Anda.</strong>	
+			</div>
+			<div class="card-body">
+				<div class="form-group">
+					<label for="nopes">Nomor peserta UTBK-SBMPTN</label>
+					<input type="number" id="nopes" class="form-control no-spinners" tabindex="1" size="12" autocomplete="off" maxlength="12">
+					<small id="nopes-help" class="form-text text-muted">Masukkan 12-digit nomor peserta UTBK-SBMPTN Anda.</small>
+				</div>
+				<div class="form-group">
+					<label>Tanggal lahir</label>
+					<div class="form-row">
+						<div class="col">
+							<input type="number" id="day" class="form-control no-spinners" tabindex="2" maxlength="2" size="2" autocomplete="off" placeholder="dd">
+							<small id="day-help" class="form-text text-muted">Tanggal (2 digit): 01-31</small>
+						</div>
+						<div class="col">
+							<input type="number" id="month" class="form-control no-spinners" tabindex="3" maxlength="2" size="2" autocomplete="off" placeholder="mm">
+							<small id="month-help" class="form-text text-muted">Bulan (2 digit): 01-12</small>
+						</div>
+						<div class="col">
+							<input type="number" id="year" class="form-control no-spinners" tabindex="4" maxlength="4" size="4" autocomplete="off" placeholder="yyyy">
+							<small id="year-help" class="form-text text-muted">Tahun (4 digit): 1979-2010</small>
+						</div>
+					</div>
+				</div>
+				<button id="search" class="btn btn-primary" type="submit">Lihat Hasil</button>
+				<br>
+			</div>
+		</div>
+		<p class="text-center"><small class="text-muted">© 2020. Lembaga Tes Masuk Perguruan Tinggi</small></p>
+	
+	</div>
+
+	<div class="container" id="accepted" style="">
+		<div class="void"></div>
+		<div class="row m-1">
+			<div class="col-12 text-center">
+				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN LTMPT 2020</span>
+			</div>
+		</div>
+		<div class="void"></div>
+		<div class="card">
+			<div class="card-body">
+				<div class="row">
+					<div class="col-12 col-sm-4">
+						<img id="qr-terima" class="img-fluid" src="./Pengumuman SBMPTN LTMPT 2020_files/12035201000709052001.png">
+					</div>
+					<div class="col-12 col-sm-8">
+						<div class="container" style="background-color: #f8f8f8; padding:15px;">
+							<div class="row no-gutters">
+								<div class="col-auto col-sm-3">
+									Nomor peserta
+								</div>
+								<div class="col-6 col-sm-1">
+									:
+								</div>
+								<div class="col-12 col-sm-8" style="font-weight: bold;">
+									<span id="no-peserta-diterima">140 - 355 - 02 - 0117</span>
+								</div>
+							</div>
+							<div class="row no-gutters">
+								<div class="col-auto col-sm-3">
+									Nama
+								</div>
+								<div class="col-6 col-sm-1">
+									:
+								</div>
+								<div class="col-12 col-sm-8" style="font-weight: bold;">
+									<span id="nama-peserta-diterima">NAMA</span>
+								</div>
+							</div>
+							<div class="row no-gutters">
+								<div class="col-auto col-sm-3">
+									Tanggal lahir
+								</div>
+								<div class="col-6 col-sm-1">
+									:
+								</div>
+								<div class="col-12 col-sm-8" style="font-weight: bold;">
+									<span id="tgllahir-peserta-diterima">DD - MM - YYYY</span>
+								</div>	
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-12">
+									<span style="font-size: 1.1em;">Selamat! Anda dinyatakan lulus seleksi SBMPTN LTMPT 2020 di</span>
+								</div>
+							</div>
+							<div class="row no-gutters">
+								<div class="col-auto col-sm-3">
+									PTN
+								</div>
+								<div class="col-6 col-sm-1">
+									:
+								</div>
+								<div class="col-12 col-sm-8">
+									<span style="font-size: 1.1em; font-weight: bold;"><span id="kode-ptn-terima">000</span> - <span id="nama-ptn-terima">UNIVERSITAS </span></span>
+								</div>
+							</div>
+							<div class="row no-gutters">
+								<div class="col-auto col-sm-3">
+									Program Studi
+								</div>
+								<div class="col-6 col-sm-1">
+									:
+								</div>
+								<div class="col-12 col-sm-8">
+									<span style="font-size: 1.1em; font-weight: bold;"><span id="kode-prodi-terima">0000000</span> - <span id="nama-prodi-terima">HUBUNGAN </span></span>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-12">
+									<span>Persyaratan pendaftaran ulang calon mahasiswa baru dapat dilihat di <a id="url-daftar" target="_blank" href="https://um.undip.ac.id/">sini</a>.</span>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-12">
+									<span>Anda dapat mencetak kembali Kartu Tanda Peserta UTBK-SBMPTN 2020 di <a target="_blank" href="https://portal.ltmpt.ac.id/">sini</a>.</span>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-12">
+									<a class="btn btn-block btn-info btn-wrap-text flash-button" target="_blank" href="http://sbmptn.unhas.ac.id/pengumuman_peserta_lulus.pdf">UNDUH PENGUMUMAN KETUA LTMPT (PDF)</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-footer">
+				<a id="accepted-back" class="btn btn-block btn-success" href="http://sbmptn.unhas.ac.id/">Kembali ke pencarian</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container" id="not-accepted" style="display: none;">
+		<div class="void"></div>
+		<div class="row m-1">
+			<div class="col-12 text-center">
+				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN 2020</span>
+			</div>
+		</div>
+		<div class="void"></div>
+		<div class="card card-block bg-faded mx-auto">
+			<div class="card-body">
+				<p class="text-center" style="font-size: 1em;">
+					PESERTA ATAS NAMA <strong><span id="nama-peserta-tidak-terima"></span></strong> DENGAN NOMOR PESERTA <strong><span id="no-peserta-tidak-diterima"></span></strong> DINYATAKAN <strong>TIDAK LULUS</strong> SELEKSI SBMPTN LTMPT 2020.
+				</p>
+				<p class="text-center" style="font-weight: bold; font-size: 1.5em;">JANGAN PUTUS ASA DAN TETAP SEMANGAT!</p>
+			</div>
+			<div class="card-footer">
+				<a id="not-accepted-back" class="btn btn-block btn-success" href="http://sbmptn.unhas.ac.id/">Kembali ke pencarian</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="input-edit">
+		<form id="editan">
+			<input type="text" id="nama" name="nama" placeholder="nama lengkap">
+			<input type="text" id="tgl-lahir" name="tgl-lahir" placeholder="DD - MM - YYYY">
+			<input type="text" id="univ" name="univ" placeholder="universitas">
+			<input type="text" id="jurusan" name="jurusan" placeholder="prodi/jurusan">
+			<input type="submit" id="button-edit" value="Edit">
+		</form>
+	</div>
+
+	<h6 style="margin: 30px 20%; text-align: center;">Created by: M. Lutfi Maftuh || @mafskuy_</h6>
+
+	<div class="void"></div>
+
+	<!-- footer class="footer">
+      <div class="container">
+        <p class="text-muted text-center">Panitia Pusat SBMPTN 2020</p>
+      </div>
+    </footer -->
+
+    <script type="text/javascript">
+    	document.getElementById('editan').addEventListener('submit', (e) => {
+    		e.preventDefault();
+    		document.getElementById('nama-peserta-diterima').innerText = e.target[0].value.toUpperCase();
+    		document.getElementById('tgllahir-peserta-diterima').innerText = e.target[1].value.toUpperCase();
+    		document.getElementById('kode-ptn-terima').innerText = Math.floor(Math.random()*(999-100+1)+100);
+    		document.getElementById('nama-ptn-terima').innerText = e.target[2].value.toUpperCase();
+    		document.getElementById('kode-prodi-terima').innerText = Math.floor(Math.random()*(9999999-1000000+1)+1000000);
+    		document.getElementById('nama-prodi-terima').innerText = e.target[3].value.toUpperCase();
+    	})
+    </script>
+
+	<script type="text/javascript" src="./Pengumuman SBMPTN LTMPT 2020_files/jquery-3.3.1.min.js.download"></script>
+
+	
